@@ -34,7 +34,7 @@ learn_baseline.fit_one_cycle(2,0.004365158267319202)
 
 # Contribution per folder:
 
-Data - Kevin, Alicia, Saskriti
+Data - Alicia, Saskriti
 
 Baseline - Kevin
 
