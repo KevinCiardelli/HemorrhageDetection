@@ -1,6 +1,9 @@
-# HemorageDetection
-#Comparing the log loss between a baseline model and a Neural Network
-#Authors: Kevin Ciardelli, Alicia Doung, Saskriti Neupane
+# HemorrhageDetection
+Goal: Find the most efficient way to optimize the classification of Brain Hemorrhage using ML
+
+Authors: Kevin Ciardelli, Alicia Doung, Saskriti Neupane
+
+Feel free to look at the included Report and presentation for more detail on the process
 
 # Runnable scripts/commands: what are the main commands that you run to get the results
 
@@ -20,7 +23,7 @@ display(subdural_data)
 
 After aquiring the data we want to test on and corresponding it to the correct csv file we can run our models:
 
-#This prepares our batch size, traing set, validation set:
+This prepares our batch size, traing set, validation set:
 dls= ImageDataLoaders.from_df(labels, 'train_jpg/train_jpg/', bs = 32, seed = 42)
 
 We can then choose a model:
