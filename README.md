@@ -32,7 +32,11 @@ learn_baseline.fit_one_cycle(2,0.004365158267319202)
 # Contribution per folder:
 
 Data - Kevin, Alicia, Saskriti
+
 Baseline - Kevin
+
 Resnet34 - Saskriti
+
 Alexnet - Kevin
+
 DenseNet - Alicia
