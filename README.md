@@ -1,7 +1,7 @@
 # HemorrhageDetection
 Goal: Find the most efficient way to optimize the classification of Brain Hemorrhage using ML
 
-Authors: Kevin Ciardelli, Alicia Doung, Saskriti Neupane
+Authors: Kevin Ciardelli
 
 Feel free to look at the included Report and presentation for more detail on the process
 
@@ -31,15 +31,3 @@ learn_baseline = vision_learner(dls_batch, resnet18, metrics=accuracy_multi)
 
 And tell how many epochs to run with an associated learning rate:
 learn_baseline.fit_one_cycle(2,0.004365158267319202)
-
-# Contribution per folder:
-
-Data - Alicia, Saskriti
-
-Baseline - Kevin
-
-Resnet34 - Saskriti
-
-Alexnet - Kevin
-
-DenseNet - Alicia
